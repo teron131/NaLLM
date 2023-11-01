@@ -12,7 +12,6 @@ During this project we're also writing blog posts where we deep dive into our le
 2. https://medium.com/neo4j/knowledge-graphs-llms-fine-tuning-vs-retrieval-augmented-generation-30e875d63a35
 3. https://medium.com/neo4j/knowledge-graphs-llms-multi-hop-question-answering-322113f53f51
 4. https://medium.com/neo4j/knowledge-graphs-llms-real-time-graph-analytics-89b392eaaa95
-5. https://medium.com/neo4j/construct-knowledge-graphs-from-unstructured-text-877be33300a2
    
 ## Repository Structure
 
@@ -28,7 +27,16 @@ To simplify the process of running the demos, we have incorporated scripts that 
 
 1. Navigate into the root directory.
 2. Create an env file. You can use the env.example file as a template. (The open API key is optional and can be provided from the UI instead)
-3. run `docker-compose up` to build the images.
+3. Install and update all the packages by
+```bash
+cd api
+pip install -r requirements.txt
+cd ../ui
+npm install
+npm update
+npm fund
+```
+4. run `docker-compose up` to build the images.
 
 This will start the backend and frontend servers, and you can access the demos at the following URLs:
 

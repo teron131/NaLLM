@@ -116,9 +116,9 @@ function App() {
         <main className="flex flex-col gap-10 p-2">
           <div className="mx-auto mt-2 shadow-xl card w-[900px] bg-base-100">
             <div className="card-body">
-              <h2 className="card-title">Report generator</h2>
+              <h2 className="card-title">Report Generator</h2>
               <p>
-                In this demo you can select a company to be used to generator a
+                In this demo you can select a company to be used to generate a
                 report. The report contains the current information about the
                 company from the database as well as a summary of the news
                 articles from the database that mention the company{" "}

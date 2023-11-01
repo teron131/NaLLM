@@ -10,7 +10,7 @@ const root = createRoot(container!);
 root.render(
   <React.StrictMode>
     <div className="flex flex-col min-h-screen gap-4 max-w-[1000px] w-[80%] mx-auto mt-4 ">
-      <h1 className="text-4xl font-bold text-center">NaLLM Demo</h1>
+      <h1 className="text-4xl font-bold text-center">NaLLM</h1>
       <p>
         Welcome to the NaLLM project demo, In this project we have explored two
         use cases. A Natural Language Interface to a Knowledge Graph and
@@ -22,7 +22,7 @@ root.render(
           href="use-cases/chat-with-kg/index.html"
           className="ndl-btn ndl-large ndl-filled ndl-primary n-bg-palette-primary-bg-strong"
         >
-          Chat With KG
+          Chat With Knowledge Graph
         </a>
         <a
           href="use-cases/unstructured-import/index.html"
@@ -34,7 +34,7 @@ root.render(
           href="use-cases/report-generation/index.html"
           className="ndl-btn ndl-large ndl-filled ndl-primary n-bg-palette-primary-bg-strong"
         >
-          Report generator
+          Report Generator
         </a>
       </div>
     </div>

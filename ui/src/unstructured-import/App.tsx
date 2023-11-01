@@ -127,7 +127,7 @@ function App() {
         />
         <main className="flex flex-col gap-10 p-2">
           <div className="flex flex-col w-2/3 max-w-2xl min-h-0 gap-2 mx-auto mt-10">
-            <h1 className="text-4xl font-bold text-center">Import data</h1>
+            <h1 className="text-4xl font-bold text-center">Unstructured Import</h1>
             <p>
               This tool is used to import unstructured data into Neo4j. It takes
               a file as input and optionally a schema in the form of{" "}
